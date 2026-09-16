@@ -1,6 +1,14 @@
 # Makefile for Lab 1–5
 # Builds only the sources that currently exist in src/, so unreleased labs
 # don't break `make all`.
+
+
+#fixed it for myself using AI 
+ifeq ($(OS),Windows_NT)
+    SHELL := C:/msys64/usr/bin/sh.exe
+    PATH := C:/msys64/usr/bin;$(PATH)
+endif
+
 CC = gcc
 CFLAGS = -std=c11 -Wall -Wextra -Wpedantic -O2
 LDFLAGS = -lm

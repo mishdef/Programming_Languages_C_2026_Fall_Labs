@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #define DEFAULT_FILENAME "data.txt"
 #define LINE_LEN 256

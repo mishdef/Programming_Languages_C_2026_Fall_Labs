@@ -194,7 +194,6 @@ void list_students(const Student arr[], int count) {
         return;
     }
     printf("\n%-5s %-20s %-5s\n", "ID", "Name", "GPA");
-    printf("------------------------------------\n");
     for (int i = 0; i < count; i++) {
         printf("%-5d %-20s %.2f\n", arr[i].id, arr[i].name, arr[i].gpa);
     }

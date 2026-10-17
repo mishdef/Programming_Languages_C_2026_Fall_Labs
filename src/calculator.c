@@ -7,6 +7,7 @@ int main(void) {
 
     printf("Simple Calculator (+ - * /)\\n");
     printf("Enter expression (e.g., 3.5 * 2): ");
+    
 
     if (scanf("%lf %c %lf", &a, &op, &b) != 3) {
         printf("Input error. Expected format: <number> <op> <number>\\n");
